@@ -1,4 +1,4 @@
----
+hey
 title: "Working with Packages -- Tidyverse"
 output: html_notebook
 ---
@@ -119,7 +119,9 @@ covid_data
 
 Let's say if we want the proportion of positive cases, we can use `mutate` as shown below:
 
+
 ```{r}
+
 newdata <- mutate(covid_data, prop = Positive/TotalSamples)
 newdata
 ```
